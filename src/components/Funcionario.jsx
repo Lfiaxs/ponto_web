@@ -1,5 +1,7 @@
 import React from "react";
 import axios from "axios";
+import Colaboradores from "./Colaboradores";
+
 
 const Funcionario = () => {
   const handleRegistrarPonto = async () => {
@@ -23,8 +25,9 @@ const Funcionario = () => {
 
   return (
     <div>
-      <h1>Bem-vindo, Funcionário</h1>
-      <button onClick={handleRegistrarPonto}>Registrar Ponto</button>
+      <h1>Bem-vindo, Funcionário!
+      </h1>
+      <button onClick={handleRegistrarPonto}>Clique aqui para seu registrar ponto!</button>
     </div>
   );
 };
