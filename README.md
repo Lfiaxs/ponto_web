@@ -4,7 +4,7 @@
 baixar node.js: https://nodejs.org/en
 colocar na path das variaveis de sistema
 
-No termninal digite: 
+No terminal digite: 
 
 npm install react-scripts
 npm start
